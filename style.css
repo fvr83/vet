@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+#banner {
+    width: 100vw;
+    height: 50vh;
+}
