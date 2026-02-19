@@ -41,7 +41,7 @@ h1 {
     font-weight: 600;
     text-decoration: none;
 
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .btn-maps {
