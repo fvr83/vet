@@ -22,56 +22,16 @@ h1 {
 
 .botoes {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 0;
 }
 
-.btn-ligar,
-.btn-maps {
-    flex: 1;
-    height: 40px;
-    border: solid 1px #179BD2;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #246C78;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-
-    /* border-radius: 10px; */
+.dropdown {
+    position: relative;
+    top: -50px;
 }
 
-.btn-maps {
-    background: #246C78;
+#dropdown-menu { 
+    display: none;
 }
-
-.btn-maps:active {
-    background: #1e7e34;
-}
-
-/* .btn-ligar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 50%;
-    height: 40px;
-
-    margin: 0 auto;
-    margin-top: 0;
-
-    background: #246C78;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-
-    border-radius: 10px;
-}
-
-.btn-ligar:active {
-    background: #1e7e34;
-} */
