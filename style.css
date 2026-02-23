@@ -29,7 +29,11 @@ h1 {
 
 .dropdown {
     position: relative;
-     transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.btn-consulta {
+    height: 5vh;
 }
 
 #dropdown-menu { 
