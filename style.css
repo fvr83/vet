@@ -2,42 +2,20 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: red;
 }
 
 body {
     background-color: #97DBDA;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 }
 
-h1 {
-    color: blue;
-}
-
-#banner {
-    display: block;
+.banner {
     width: 100vw;
-    height: 45vh;
-    object-fit: fill;
-}
-
-.botoes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0;
-}
-
-.dropdown {
-    position: relative;
-    transform: translate(-10%, -100%);
-}
-
-.btn-consulta {
-    height: 5vh;
-    width: 40vw;
-}
-
-#dropdown-menu { 
-    display: none;
+    height: 50vh;
+    background-image: url("images/logo banner.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
