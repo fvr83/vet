@@ -12,8 +12,7 @@ body {
 }
 
 .banner {
-    width: 100vw;
-    height: 50vh;
+    height: 77vh;
     background-image: url("images/logo banner.jpg");
     background-size: contain;
     background-position: center;
