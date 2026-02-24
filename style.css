@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: red;
 }
 
 body {
@@ -11,32 +10,24 @@ body {
     height: 100vh;
 }
 
-.logo-top {
-    background-color: chocolate;
-}
-
 .logo-bottom {
-    background-color: blue;
     display: flex;
 }
 
 .logo-t {
     display: block;
-    background-color: blueviolet;
     width: 100vw;
     height: auto;
 }
 
 .logo-l {
     display: block;
-    background-color: blueviolet;
     width: 26.9vw;
     height: auto;
 }
 
 .logo-r {
     display: block;
-    background-color: blueviolet;
     width: 33.95vw;
     height: auto;
 }
@@ -44,16 +35,23 @@ body {
 .menu-container {
     width: 40vw;
     position: relative;
+    height: auto;
+    background-image: url("images/complemento2.png");
+    background-size: contain;
 }
 
 /* Botão principal */
 .menu-rapido {
     width: 100%;
     height: 100%;
-    background: #246C78;
-    border: none;
+    background-image: url("images/complemento2.png");
+    background-size: contain;
+    color: black;
+    border: 7px double #189CCD;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px black, 0 0 0 6px #246C78;
     cursor: pointer;
-    font-size: clamp(14px, 1.2vw, 18px);
+    font-size: clamp(1rem, 3.5vw, 4.5rem);
     font-weight: 600;
 }
 
@@ -62,12 +60,12 @@ body {
     position: absolute;
     inset: 0;
     display: none;
-    background: #EDEDED;
 }
 
 /* Quando ativo */
 .dropdown.active {
     display: flex;
+    gap: 20px
 }
 
 /* Botões internos */
@@ -75,18 +73,26 @@ body {
     flex: 1;
     border: none;
     cursor: pointer;
-    font-size: clamp(14px, 1.2vw, 18px);
+    font-size: clamp(1rem, 3.5vw, 4.5rem);
     font-weight: 600;
 }
 
 .dropdown .mensagem {
-    background: #4CAF50;
-    color: white;
+    background-image: url("images/complemento2.png");
+    background-size: contain;
+    color: black;
+    border: 7px double #189CCD;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px black, 0 0 0 6px #246C78;
 }
 
 .dropdown .ligar {
-    background: #2196F3;
-    color: white;
+    background-image: url("images/complemento2.png");
+    background-size: contain;
+    color: black;
+    border: 7px double #189CCD;
+    border-radius: 50px;
+    box-shadow: 0 0 0 3px black, 0 0 0 6px #246C78;
 }
 
 /* Efeito hover */
