@@ -1,12 +1,15 @@
-function toggleDropdown() {
-    const menu = document.getElementById("dropdown-menu");
-    menu.style.display = menu.style.display === "block" ? "none" : "block";
-}
+const btn = document.getElementById('btnConsulta');
+const dropdown = document.getElementById('dropdownConsulta');
 
-// Fecha o menu se clicar fora
-document.addEventListener("click", function(e) {
-    const dropdown = document.querySelector(".dropdown");
-    if (!dropdown.contains(e.target)) {
-        document.getElementById("dropdown-menu").style.display = "none";
+btn.addEventListener('click', () => {
+    btn.style.display = 'none';
+    dropdown.classList.add('active');
+});
+
+// Opcional: clicar fora fecha o dropdown
+document.addEventListener('click', (e) => {
+    if (!e.target.closest('.menu-container')) {
+        dropdown.classList.remove('active');
+        btn.style.display = 'block';
     }
 });

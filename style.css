@@ -11,12 +11,86 @@ body {
     height: 100vh;
 }
 
-.banner {
-    width: 100vw;
+.logo-top {
+    background-color: chocolate;
 }
 
-.banner img {
+.logo-bottom {
+    background-color: blue;
+    display: flex;
+}
+
+.logo-t {
+    display: block;
+    background-color: blueviolet;
     width: 100vw;
     height: auto;
+}
+
+.logo-l {
     display: block;
+    background-color: blueviolet;
+    width: 26.9vw;
+    height: auto;
+}
+
+.logo-r {
+    display: block;
+    background-color: blueviolet;
+    width: 33.95vw;
+    height: auto;
+}
+
+.menu-container {
+    width: 40vw;
+    position: relative;
+}
+
+/* Botão principal */
+.menu-rapido {
+    width: 100%;
+    height: 100%;
+    background: #246C78;
+    border: none;
+    cursor: pointer;
+    font-size: clamp(14px, 1.2vw, 18px);
+    font-weight: 600;
+}
+
+/* Dropdown ocupa exatamente o mesmo espaço */
+.dropdown {
+    position: absolute;
+    inset: 0;
+    display: none;
+    background: #EDEDED;
+}
+
+/* Quando ativo */
+.dropdown.active {
+    display: flex;
+}
+
+/* Botões internos */
+.dropdown .opt {
+    flex: 1;
+    border: none;
+    cursor: pointer;
+    font-size: clamp(14px, 1.2vw, 18px);
+    font-weight: 600;
+}
+
+.dropdown .mensagem {
+    background: #4CAF50;
+    color: white;
+}
+
+.dropdown .ligar {
+    background: #2196F3;
+    color: white;
+}
+
+/* Efeito hover */
+.dropdown .opt:hover,
+.menu-rapido:hover {
+    filter: brightness(0.95);
 }
