@@ -67,7 +67,9 @@ body {
 /* Quando ativo */
 .dropdown.active {
     display: flex;
-    gap: 10px
+    gap: 10px;
+    transform: translateX(1%);
+    
 }
 
 /* Botões internos */
