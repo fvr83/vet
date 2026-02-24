@@ -38,6 +38,7 @@ body {
     height: auto;
     background-image: url("images/complemento2.png");
     background-size: contain;
+    
 }
 
 /* Botão principal */
@@ -53,6 +54,7 @@ body {
     cursor: pointer;
     font-size: clamp(1rem, 3.5vw, 4.5rem);
     font-weight: 600;
+    transform: translateX(1%);
 }
 
 /* Dropdown ocupa exatamente o mesmo espaço */
