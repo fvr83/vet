@@ -49,7 +49,7 @@ body {
     color: black;
     border: 7px double #189CCD;
     border-radius: 50px;
-    box-shadow: 0 0 0 3px black, 0 0 0 6px #246C78;
+    box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78;
     cursor: pointer;
     font-size: clamp(1rem, 3.5vw, 4.5rem);
     font-weight: 600;
