@@ -60,7 +60,7 @@ body {
     box-shadow: 
         0 0 0 1px black,
         0 0 0 2px #246C78,
-        0 6px 12px rgba(0,0,0,0.8);
+        8px 4px 12px rgba(0,0,0,0.8);
 
     cursor: pointer;
     font-size: clamp(1rem, 3.5vw, 4.5rem);
@@ -102,7 +102,7 @@ body {
     color: black;
     border: 3px double #189CCD;
     border-radius: 10px;
-    box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78, 0 6px 12px rgba(0,0,0,0.8);
+    box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78, 8px 4px 12px rgba(0,0,0,0.8);
 }
 
 .dropdown .ligar {
@@ -112,7 +112,7 @@ body {
     color: black;
     border: 3px double #189CCD;
     border-radius: 10px;
-    box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78, 0 6px 12px rgba(0,0,0,0.8);
+    box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78, 8px 4px 12px rgba(0,0,0,0.8);
 }
 
 /* Efeito hover */
