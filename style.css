@@ -53,7 +53,7 @@ body {
     background-image: url("images/complemento2.png");
     background-size: contain;
     color: black;
-    border: 7px double #189CCD;
+    border: 5px double #189CCD;
     border-radius: 50px;
     box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78;
     cursor: pointer;
@@ -95,7 +95,7 @@ body {
     background-image: url("images/complemento2.png");
     background-size: contain;
     color: black;
-    border: 7px double #189CCD;
+    border: 5px double #189CCD;
     border-radius: 50px;
     box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78;
 }
