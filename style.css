@@ -54,7 +54,7 @@ body {
     background-size: contain;
     color: black;
     border: 7px double #189CCD;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78;
     cursor: pointer;
     font-size: clamp(1rem, 3.5vw, 4.5rem);
@@ -96,7 +96,7 @@ body {
     background-size: contain;
     color: black;
     border: 7px double #189CCD;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78;
 }
 
@@ -105,7 +105,7 @@ body {
     background-size: contain;
     color: black;
     border: 7px double #189CCD;
-    border-radius: 25px;
+    border-radius: 10px;
     box-shadow: 0 0 0 1px black, 0 0 0 1px #246C78;
 }
 
