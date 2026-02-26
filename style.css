@@ -63,7 +63,7 @@ body {
         8px 4px 12px rgba(0,0,0,0.8);
 
     cursor: pointer;
-    font-size: clamp(1rem, 3.5vw, 4.5rem);
+    font-size: clamp(0.8rem, 3.5vw, 4.5rem);
     font-weight: 600;
     transform: translateX(1%);
 }
@@ -91,7 +91,7 @@ body {
     height: 80%;
     border: none;
     cursor: pointer;
-    font-size: clamp(1rem, 3.5vw, 4.5rem);
+    font-size: clamp(0.8rem, 3.5vw, 4.5rem);
     font-weight: 600;
 }
 
