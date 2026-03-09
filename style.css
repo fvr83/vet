@@ -5,10 +5,44 @@
 }
 
 body {
-    background-color: #97DBDA;
+    margin: 0;
+
+  background: linear-gradient(
+        to right,
+        #6fcac9 0%,
+        #97DBDA 5%,
+        #bdeeee 20%,
+        #dff8f8 50%,
+        #bdeeee 80%,
+        #97DBDA 95%,
+        #6fcac9 100%
+    );
+
     width: 100vw;
     height: 100vh;
 }
+
+/* body {
+    margin: 0;
+    background-color: #97DBDA;
+
+    background: radial-gradient(
+        circle at center,
+        #dff8f8 0%,
+        #bdeeee 40%,
+        #97DBDA 85%,
+        #6fcac9 100%
+    );
+
+    width: 100vw;
+    height: 100vh;
+} */
+
+/* body {
+    background-color: #97DBDA;
+    width: 100vw;
+    height: 100vh;
+} */
 
 .logo-bottom {
     display: flex;
@@ -153,7 +187,7 @@ body {
     text-decoration: none;
     color: white;
     font-family: "Kavivanar", cursive;
-    font-size: clamp(0.8rem, 2vw, 4.5rem);
+    font-size: clamp(0.8rem, 3vw, 4.5rem);
     font-weight: 600;
     transition: 0.3s;
 }
@@ -164,7 +198,7 @@ body {
 
 /* ===== DROPDOWN ===== */
 
-.has-dropdown .dropdown-menu {
+/* .has-dropdown .dropdown-menu {
     display: none;
     position: absolute;
     width: 100%;
@@ -184,9 +218,9 @@ body {
 
 .has-dropdown .dropdown-menu a {
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .has-dropdown:hover .dropdown-menu {
     display: block;
-}
+} */
