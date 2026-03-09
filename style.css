@@ -134,8 +134,6 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    gap: 40px;
-    padding: 15px 0;
 }
 
 .menu li {
@@ -150,17 +148,6 @@ body {
     background-color: #127599;
 }
 
-/* Separador entre itens do menu */
-.menu li:not(:last-child)::after {
-    content: "";
-    position: absolute;
-    right: -40px; /* controla distância */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 2px; /* espessura */
-    height: 100%; /* altura da linha */
-    background-color: #97DBDA; /* cor da separação */
-}
 
 .menu a {
     text-decoration: none;
@@ -180,6 +167,7 @@ body {
 .has-dropdown .dropdown-menu {
     display: none;
     position: absolute;
+    width: 100%;
     top: 100%;
     left: 0;
     background-color: #189CCD;
